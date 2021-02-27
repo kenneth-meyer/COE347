@@ -1,0 +1,19 @@
+List of items to complete for each section of the assignment
+
+Before anything:
+1. Get OpenFOAM running on TACC
+	1a. run the tutorial
+2. clone group git repo
+
+Description of flow for Re=10
+1. obtain first solution for flow
+2. create paraview state file for the plots (use what exists)
+	2a. create slice to make 2d contour plot (2.1.4.2 Cutting plane (slice)) in the lid-driven cavity tutorial
+	2b. create another slice through the specified plane/dimension (?) to view u and v over y (velocity vs position)
+
+***update next sections as we start them 
+
+
+important links (to tutorials):
+https://cfd.direct/openfoam/user-guide/v7-cavity/
+ 
