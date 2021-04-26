@@ -1,0 +1,2 @@
+OF3 filter=lfs diff=lfs merge=lfs -text
+OF3/* filter=lfs diff=lfs merge=lfs -text
