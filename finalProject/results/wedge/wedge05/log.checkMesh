@@ -8,9 +8,9 @@
 Build  : 7-49b2b3b8b082
 Exec   : checkMesh
 Date   : May 14 2021
-Time   : 01:26:57
-Host   : "c452-133.stampede2.tacc.utexas.edu"
-PID    : 204661
+Time   : 15:46:58
+Host   : "c403-023.stampede2.tacc.utexas.edu"
+PID    : 16857
 I/O    : uncollated
 Case   : /work2/06782/kenmeyer/stampede2/final_serial/COE347/finalProject/wedge05
 nProcs : 1
