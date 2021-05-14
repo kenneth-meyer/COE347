@@ -1,0 +1,68 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-49b2b3b8b082
+Exec   : icoFoam
+Date   : May 14 2021
+Time   : 01:26:58
+Host   : "c452-133.stampede2.tacc.utexas.edu"
+PID    : 204718
+I/O    : uncollated
+Case   : /work2/06782/kenmeyer/stampede2/final_serial/COE347/finalProject/wedge05
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading transportProperties
+
+Reading field p
+
+Reading field U
+
+--> FOAM Warning : 
+    From function bool Foam::IOobject::readHeader(Foam::Istream &)
+    in file db/IOobject/IOobjectReadHeader.C at line 88
+    Reading "/work2/06782/kenmeyer/stampede2/final_serial/COE347/finalProject/wedge05/0/U" at line 1
+    First token could not be read or is not the keyword 'FoamFile'
+
+Check header is of the form:
+
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "0";
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+
+--> FOAM FATAL IO ERROR: 
+problem while reading header for object U
+
+file: /work2/06782/kenmeyer/stampede2/final_serial/COE347/finalProject/wedge05/0/U at line 1.
+
+    From function Foam::autoPtr<Foam::ISstream> Foam::fileOperations::uncollatedFileOperation::readStream(Foam::regIOobject &, const Foam::fileName &, const Foam::word &, bool) const
+    in file global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.C at line 559.
+
+FOAM exiting
+
