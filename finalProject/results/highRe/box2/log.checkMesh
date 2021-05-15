@@ -8,11 +8,11 @@
 Build  : 7-49b2b3b8b082
 Exec   : checkMesh
 Date   : May 14 2021
-Time   : 16:03:54
-Host   : "c402-131.stampede2.tacc.utexas.edu"
-PID    : 194045
+Time   : 21:55:28
+Host   : "c401-022.stampede2.tacc.utexas.edu"
+PID    : 85271
 I/O    : uncollated
-Case   : /scratch/07958/rbais/COE347/finalProject/box2
+Case   : /work2/06781/jpborsos/stampede2/coe347/Final_Project/COE347/finalProject/results/highRe/box2
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
